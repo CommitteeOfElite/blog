@@ -1,28 +1,19 @@
-author = "Committee Of Elite"
 baseurl = "http://blog.committeeofelite.club"
-canonifyurls = true
 copyright = "CC 4.0 CoZ Staff"
-paginate = 5
-title = "Blog di CoZ"
-
 googleAnalytics = ""
-
-theme = "strange-case"
+paginate = 5
+pygmentsStyle = "solarized-dark"
+theme = "solar-theme-hugo"
+title = "Committee Of Elite"
 
 [params]
-DateFormat = "2 Jan 2006"
-colorScheme = "scheme-slate"
-description = "A blog about content"
-piwikSiteID = ""
-piwikURL = ""
-sidebarFreeText = "A optional paragraph of free text. Set to blank in config.toml to clear..."
+description = "Blog di CoZ" 
+scheme = "preference" # light, dark, gray or preference
 
+[menu]
 [[menu.main]]
-name = "Hugo"
-post = "<span class='glyphicon glyphicon-fire'></span>"
-url = "http://gohugo.io"
-
+name = "Home"
+url = "https://committeeofelite.club"
 [[menu.main]]
-name = "Bootstrap"
-post = "<span class='glyphicon glyphicon-ok'></span>"
-url = "http://getbootstrap.com"
+name = "Feed"
+url = "/index.xml"
