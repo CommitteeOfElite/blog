@@ -8,12 +8,9 @@ title = "Committee Of Elite"
 
 [params]
 description = "Blog di CoZ" 
-scheme = "preference" # light, dark, gray or preference
+scheme = "gray" # light, dark, gray or preference
 
 [menu]
 [[menu.main]]
 name = "Home"
 url = "https://committeeofelite.club"
-[[menu.main]]
-name = "Feed"
-url = "/index.xml"
